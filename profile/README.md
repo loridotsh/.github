@@ -8,9 +8,9 @@ Lori is a vendor neutral workspace for AI coding that brings **Claude Code, Code
 
 Manage your sessions, MCPs, providers, skills, and workspace from one place. Configure once, switch between agents instantly, and stay independent of any single AI vendor.
 
-🌐 **Website:** https://lori.sh
-🐙 **GitHub:** https://github.com/loridotsh
-𝕏 **X:** https://x.com/loridotsh
+**Website:** https://lori.sh <br>
+**GitHub:** https://github.com/loridotsh <br>
+**X:** https://x.com/loridotsh 
 
 ---
 
