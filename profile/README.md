@@ -1,6 +1,6 @@
 # Lori
 
-> **The AI workspace that grows with your team.**
+> **The AI coding workspace that grows with your team of agents.**
 
 **AI models change. Coding agents change. Your workflow shouldn't.**
 
