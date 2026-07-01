@@ -2,7 +2,7 @@
 
 > **The AI coding workspace that grows with your team of agents.**
 
-**AI models change. Coding agents change. Your workflow shouldn't.**
+**AI models change. Coding agents change. Your workspace shouldn't.**
 
 Lori is a vendor neutral workspace for AI coding that brings **Claude Code, Codex, OpenCode, Gemini CLI**, and future AI coding agents into one unified experience.
 
