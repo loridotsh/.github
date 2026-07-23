@@ -4,13 +4,14 @@
 
 **AI models change. Coding agents change. Your workspace shouldn't.**
 
-Lori is a vendor neutral workspace for AI coding that brings **Claude Code, Codex, OpenCode, Gemini CLI**, and future AI coding agents into one unified experience.
+Lori is a vendor-neutral workspace for AI coding that brings **Claude Code, OpenCode, Antigravity, Codex, Hermes, Cursor**, and future AI coding agents into one unified experience.
 
 Manage your sessions, MCPs, providers, skills, and workspace from one place. Configure once, switch between agents instantly, and stay independent of any single AI vendor.
 
-**Website:** https://lori.sh <br>
-**GitHub:** https://github.com/loridotsh <br>
-**X:** https://x.com/loridotsh 
+**Website:** https://lori.sh  
+**Download:** https://lori.sh/download  
+**GitHub:** https://github.com/loridotsh  
+**X:** https://x.com/loridotsh
 
 ---
 
@@ -32,36 +33,70 @@ Instead of rebuilding your setup every time a better model or agent arrives, you
 * Shared skills and reusable workflows
 * Seamless session management and agent switching
 * Native terminal experience with multiple concurrent sessions
-* Local first architecture with your data stored on your machine
-* Automatic in app updates
+* Local-first architecture with your data stored on your machine
+* Automatic in-app updates on every platform
 * Designed to support new coding agents as they emerge
 
 ## Download
 
-Download the latest release for **Apple Silicon (M1, M2, M3, and M4)**.
+Lori is available for **macOS (Apple Silicon)**, **Windows (x64)**, and **Linux (x86_64 AppImage)**.
+
+**[Download on lori.sh →](https://lori.sh/download)**
+
+Or grab installers from GitHub:
 
 **[Latest Release →](https://github.com/loridotsh/lori-updates/releases/latest)**
 
+| Platform | Build |
+| --- | --- |
+| macOS | Apple Silicon `.dmg` |
+| Windows | x64 NSIS setup (`.exe`) and MSI |
+| Linux | x86_64 AppImage |
+
 ## Updates
 
-Lori includes built in automatic updates.
+Lori includes built-in automatic updates on macOS, Windows, and Linux.
 
 You can also browse release notes, beta builds, and update history here:
 
 **[lori-updates →](https://github.com/loridotsh/lori-updates)**
 
-## Install (macOS)
+## Install
 
-1. Download the latest `.dmg` from **Latest Release**
+### macOS
+
+1. Download the Apple Silicon `.dmg` from **[lori.sh/download](https://lori.sh/download)** or **Latest Release**
 2. Drag **Lori** into **Applications**
 3. Launch Lori
 
 If macOS blocks the first launch:
 
-* Right click **Lori** and choose **Open**
+* Right-click **Lori** and choose **Open**
 * Or allow it from **System Settings → Privacy & Security**
 
-Requires **macOS 10.15+** on **Apple Silicon**.
+Requires **macOS 13 Ventura or later** on **Apple Silicon (M1 or newer)**.
+
+### Windows
+
+1. Download the x64 setup (`.exe`) from **[lori.sh/download](https://lori.sh/download)** or **Latest Release**
+2. Run the installer and follow the prompts
+3. Launch Lori from the Start menu
+
+An MSI is also available if you prefer it for managed installs.
+
+Windows may warn on first open until broader code signing lands — choose **More info → Run anyway** if SmartScreen prompts you.
+
+Requires **64-bit Windows 10 or later**.
+
+### Linux
+
+1. Download the x86_64 AppImage from **[lori.sh/download](https://lori.sh/download)** or **Latest Release**
+2. Make it executable: `chmod +x Lori_*.AppImage`
+3. Run it: `./Lori_*.AppImage`
+
+FUSE is required on most distributions for AppImage. In-app updates work after the first launch.
+
+Requires **x86_64 (amd64)** with **glibc 2.31 or later**.
 
 ## Philosophy
 
@@ -75,7 +110,7 @@ As models improve and new coding agents emerge, your workflow stays exactly the 
 
 Found a bug, have a feature request, or want to help improve Lori?
 
-**[Open an issue](https://github.com/loridotsh/lori-updates/issues)** or start a discussion.
+**[Open an issue](https://github.com/loridotsh/lori/issues)** or start a discussion.
 
 ## Changelog
 
